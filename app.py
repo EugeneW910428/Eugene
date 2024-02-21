@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 @st.cache
 def load_data():
     # Load your dataset
-    data = pd.read_csv("your_dataset.csv")
+    data = pd.read_csv("drugLibTrain_raw.tsv")
 
     # Preprocess your data (handle missing values, encoding, etc.)
     # For simplicity, let's assume the dataset is already preprocessed
